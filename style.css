@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+header{
+    height: auto;
+    width: 30%;
+    
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.contaner{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 ;
+    text-align: center;
+    background-color: black;
+}
+.info h2{
+    margin-bottom:10px ;
+}
+.info{
+    color: white;
+
+}
+.point{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h2{
+    margin-bottom: 30px;
+}
+.education h2{
+    margin: 20px 0;
+    
+}
+.education p {
+    margin: 10px 0;
+    
+}
+.contact h2{
+    margin: 25px 0;
+
+}
+.ul-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+   list-style-position: inside;
+}
+.sec-2{
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    justify-content: center;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 50px 10px;
+    font-size: 18px;
+    
+}
+footer a{
+    color: green;
+}
+
+@media screen and (max-width: 600px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10%;
+        padding: 0 8px;
+    }
+    header{
+        height: auto;
+        width: 100%;
+        
+    }
+    .logo img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .contaner{
+        display: flex;
+        justify-content: center;
+        padding: 40px 0 ;
+        text-align: center;
+        background-color: black;
+    }
+    .info h2{
+        margin-bottom:10px ;
+    }
+    .info{
+        color: white;
+    
+    }
+    .point{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h2{
+        margin-bottom: 30px;
+    }
+    .education h2{
+        margin: 20px 0;
+        
+    }
+    .education p {
+        margin: 10px 0;
+        
+    }
+    .contact{
+        margin-bottom: 30px;
+    }
+    .contact h2{
+        margin: 25px 0;
+    
+    }
+    .ul-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 20px;
+       list-style-position: inside;
+    }
+    .sec-2{
+        max-width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12%;
+        justify-content: center;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+    
+  }
